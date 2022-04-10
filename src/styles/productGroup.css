@@ -1,0 +1,4 @@
+.product-group{
+	display: flex;
+	flex-wrap: wrap;
+}

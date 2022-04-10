@@ -1,0 +1,5 @@
+.App div.content{
+  margin-top: 82px;
+  position: relative;
+	height: calc(100vh - 82px);
+}

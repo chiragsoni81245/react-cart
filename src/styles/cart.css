@@ -1,0 +1,28 @@
+#cart{
+	position: absolute;
+	box-sizing: border-box;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 3;
+	background: #fff;
+	width: 0;
+	overflow: hidden;
+	transition: 400ms;
+	padding: 0px;
+}
+
+#cart.show{
+	width: 100%;
+	padding: 15px;
+}
+
+#cart .cartContent{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#cart .billingDetails{
+	padding-right: 15px;
+}

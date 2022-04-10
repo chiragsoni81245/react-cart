@@ -1,0 +1,33 @@
+.product{
+	padding: 10px;
+	border: 2px solid grey;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.product .add-to-cart{
+	border-radius: 8px;
+	padding: 8px 15px;
+	border: none;
+	background-color: rgb(82, 176, 82);
+	color: #fff;
+	cursor: pointer;
+	margin: 1.33em 0px;
+}
+
+.product .quantityController{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.product .quantityController button{
+	cursor: pointer;
+	border: none;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background-color: rgb(62, 142, 246);
+	color: #fff;
+}
