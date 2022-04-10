@@ -10,7 +10,7 @@ function App() {
 
 	useEffect(()=>{
 		//Some api call
-		fetch("http://localhost:4000/api/products").then(response =>{
+		fetch("http://3.23.128.207:4000/api/products").then(response =>{
 			response.json().then(data=>{
 				setProductsDetail(data);
 			})
